@@ -67,7 +67,7 @@
     }
 
     function showQuote() {
-      var random = Math.floor((Math.random()*25));
+      const random = Math.floor((Math.random()*25));
       quotePara.textContent = quoteJson[random].quote + ' -- ' + quoteJson[random].author;
     }
     </script>
